@@ -26,7 +26,7 @@ ci
 Trigger only if build is stable
 
 // Send build artifacts over ssh:
-ansible-playbook  /sourcecode/docker.yml
+ansible-playbook  /sourcecode/ci.yml
 
 - hosts: all
   tasks:
